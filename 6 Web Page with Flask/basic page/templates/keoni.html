@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="home">
+    <h1>Perez</h1>
+    <p>This is Keoni Test Demo Project Website with Flask!. {{myName}}</p>
+    <p><form action="{{ url_for('keoni') }}" method='post'>
+        Please type your name: <input type='text' name='myName'><br>
+        <input type='submit' value='Submit'>
+        </form></p>
+</div>
+{% endblock %}

@@ -5,7 +5,7 @@ import pymysql as my
 #the default may be blank; I used python123 for testing
 #BE SURE to match your password to the password you set when installing MySQL. If in doubt, try a blank password
 #dbconn = my.connect (host='127.0.0.1',port=33067,user='root', password='',  db='students')
-dbconn = my.connect (host='127.0.0.1',port=3306,user='root', password='',  db='students')
+dbconn = my.connect (host='127.0.0.1',port=3307,user='root', password='',  db='students')
  
 #print(dbconn) #This is a testing stub to make sure the connection worked. Uncomment it to use it.
 cursor = dbconn.cursor()

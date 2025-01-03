@@ -9,7 +9,7 @@ See https://www.geeksforgeeks.org/python-docstrings/
 import statistics as s
 
 #add constants next
-admins = {'Faculty1':'ABC123','Faculty2':'ABC123','Dominic':'Thomas'}
+admins = {'Faculty1':'ABC123','Faculty2':'ABC123','Keoni':'ABC321'}
 
 # Like the admins above is a dictionary but of students.
 # Dictionaries use curly brackets with colons to associate keys with values.
@@ -19,7 +19,8 @@ admins = {'Faculty1':'ABC123','Faculty2':'ABC123','Dominic':'Thomas'}
 # Each value is separated by commas.
 students = {'Alex':[87,88,98],
             'Sally':[88,67,93],
-            'Nboke':[90,88,78]}
+            'Nboke':[90,88,78],
+            'Keoni':[99,87,90]}
 
 # Now we define functions. Functions encapsulate logic into reusable recipes that can be
 # executed whenever we need them by calling their name with parentheses.

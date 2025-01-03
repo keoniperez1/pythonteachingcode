@@ -26,5 +26,9 @@ def home():
 def about():
     return render_template("about.html")
 
+@app.route('/keoni/')
+def keoni():
+    return render_template("keoni.html")
+
 if __name__=="__main__":
     app.run(debug=True)
